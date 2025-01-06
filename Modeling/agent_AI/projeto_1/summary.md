@@ -1,0 +1,6 @@
+Article Title: "Selection of optimum tool geometry and cutting conditions with Linear regression and Genetic Algorithms"
+
+Author: N. Suresh Kumar Reddy, P. Venkateswara Rao
+
+Summary: 
+This article discusses an optimization model for metal cutting processes that focuses on minimizing surface roughness using genetic algorithms (GA). The authors developed a model utilizing variables such as cutting speed, feed rate, radial rake angle, and nose radius, each represented in a binary coding system for GA optimization. The process involves several generations of computations until a steady state is reached, ensuring a simultaneous optimization of all variables. Key parameters chosen include a maximum of 500 generations, a crossover probability of 0.1, and a mutation probability of 0.03. Validated by a Chi-square test and analyzed through variance assessment, the GA has shown to effectively predict minimum surface roughness values and provide corresponding optimal machining conditions. The research demonstrates the efficiency of GAs in managing the complex conditions and constraints in metal cutting, providing a robust framework for future applications in machining technology.

@@ -1,0 +1,19 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given.
+    Filter the Name of the article, the author and summarize the article.
+  expected_output: >
+    A summarization of the article of 10 lines uncover the main points and highligth the author name and article title
+  agent: researcher
+  input:
+    pdf_file_path: "{pdf_file_path}"
+  output_file: summary.md
+
+reporting_task:
+  description: >
+    within a provided path, report all documents in bullet points that exists in {directory_path} that are similar to the {topic}
+  expected_output: >
+    list of paths of recommended article
+  agent: reporting_analyst
+  output_file: report.md
